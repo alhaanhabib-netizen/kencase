@@ -2,7 +2,7 @@ import os
 import json
 import streamlit as st
 from langchain_openai import ChatOpenAI
-from langchain.core.messages import HumanMessage, SystemMessage, AIMessage
+from langchain.core import HumanMessage, SystemMessage, AIMessage
 
 # Page Configuration
 st.set_page_config(page_title="AI Agent Interface", page_icon="🤖", layout="wide")
